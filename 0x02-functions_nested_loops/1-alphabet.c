@@ -15,7 +15,6 @@ void print_alphabet(void)
 		_putchar(letter);
 	}
 	printf("\n");
-	return (0);
 
 
 }
