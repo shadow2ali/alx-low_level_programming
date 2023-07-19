@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
 *print_alphabet_x10 - prints alphabet letters 10 times followed by a new line.
 *Return: void
@@ -11,6 +12,6 @@ for (i = 0; i < 10; i++)
 {
 for (a = 'a'; a <= 'z'; a++)
 _putchar(a);
-_putchar(10);
+printf("\n");
 }
 }
