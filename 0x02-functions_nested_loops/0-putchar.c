@@ -1,15 +1,20 @@
-#include<stdio.h>
-/**
- * main -Entry point
- *
- *Description : A C programm that print put function
- *
- * Return: Always 0 (Success)
- *
- */
+#include "main.h"
 
+/**
+*main - function print _putchar  followed by a new line.
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	printf("_putchar\n");
+	char arr[7] = "_putchar";
+
+	
+
+	for (int i = 0; i < 8; i++)
+	{
+		_putchar(arr[i]);
+	}
+	
 	return (0);
 }
