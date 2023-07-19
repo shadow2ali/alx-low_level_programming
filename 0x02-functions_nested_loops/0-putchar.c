@@ -16,6 +16,6 @@ int main(void)
 	{
 		_putchar(arr[i]);
 	}
-	_putchar(10);
+	printf("%c\n");
 	return (0);
 }
