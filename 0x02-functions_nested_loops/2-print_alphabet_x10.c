@@ -12,6 +12,6 @@ for (i = 0; i < 10; i++)
 {
 for (a = 'a'; a <= 'z'; a++)
 _putchar(a);
-printf("\n");
+_putchar(10);
 }
 }
