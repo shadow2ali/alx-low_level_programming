@@ -16,6 +16,6 @@ int main(void)
 	{
 		_putchar(arr[i]);
 	}
-	printf("%c\n");
+	printf("\n");
 	return (0);
 }
